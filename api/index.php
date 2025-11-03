@@ -69,7 +69,7 @@
               </h3>
               <img
                 class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $nacional['imagen']; ?>"
+                src="<?php echo $internacional['imagen']; ?>"
                 style="width: 200px; height: 200px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
               <div class="mb-1 text-muted">
                 <?php
