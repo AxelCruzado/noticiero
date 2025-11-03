@@ -210,10 +210,7 @@
                   ?>
                 </a>
               </h3>
-              <img
-                class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $ciencia['imagen']; ?>"
-                style="width: 200px; height: 200px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
+              
               <div class="mb-1 text-muted">
                 <?php
                   echo $ciencia["autor"];
@@ -247,11 +244,7 @@
                   ?>
                 </a>
               </h3>
-              <img
-                class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $cultura['imagen']; ?>"
-                style="width: 200px; height: 150px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
-              <div class="mb-1 text-muted">
+              
                 <?php
                   echo $cultura["autor"];
                 ?>
@@ -309,10 +302,7 @@
                   ?>
                 </a>
               </h3>
-              <img
-                class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $deportes['imagen']; ?>"
-                style="width: 200px; height: 200px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
+              
               <div class="mb-1 text-muted">
                 <?php
                   echo $deportes["autor"];
@@ -395,11 +385,7 @@
                   ?>
                 </a>
               </h3>
-              <img
-                class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $formacion['imagen']; ?>"
-                style="width: 200px; height: 200px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
-              <div class="mb-1 text-muted">
+              
                 <?php
                   echo $formacion["autor"];
                 ?>
@@ -447,11 +433,7 @@
                   ?>
                 </a>
               </h3>
-              <img
-                class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $sociedad['imagen']; ?>"
-                style="width: 200px; height: 200px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
-              <div class="mb-1 text-muted">
+              
                 <?php
                   echo $sociedad["autor"];
                 ?>
