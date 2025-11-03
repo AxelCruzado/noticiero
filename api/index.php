@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+    <link rel="icon" href="https://previews.123rf.com/images/rastudio/rastudio1708/rastudio170809958/84944028-global-news-vector-line-icon-isolated-on-white-background-global-news-line-icon-for-infographic.jpg">
 
-    <title>NOTICIAS SON NOTICIAS 2025</title>
+    <title>NOTICIAS ACTUALIZADAS 2025</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,20 +32,23 @@
       <?php
         include("secciones/portada.php");
       ?>
-      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-        <div class="col-md-12 px-0">
-          <h1 class="display-4 font-italic">
-            <?php
-              echo $portada["titulo"];
-            ?>
-          </h1>
-          <p class="lead my-3">
-            <?php
-              echo $portada["resumen"];
-            ?>
-          </p>
-        </div>
-      </div>
+      <div class="jumbotron p-3 p-md-5 text-white rounded" 
+     style="background-image: url('<?php echo $portada['imagen']; ?>');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;">
+  <div class="col-md-12 px-0" 
+       style="background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: .25rem;">
+    <h1 class="display-4 font-italic">
+      <?php echo $portada["titulo"]; ?>
+    </h1>
+    <p class="lead my-3">
+      <?php echo $portada["resumen"]; ?>
+    </p>
+  </div>
+</div>
+
 
       <!-- Fila 1 -->
       <?php
