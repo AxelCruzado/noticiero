@@ -33,7 +33,7 @@
         include("secciones/portada.php");
       ?>
       <div class="jumbotron p-3 p-md-5 text-white rounded" 
-     style="background-image: url('<?php echo $portada['imagen']; ?>');
+     style="background-image: url('<?php echo $portada['image']; ?>');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -97,7 +97,7 @@
               </h3>
               <img
                 class = "card-img-left flex-auto d-none d-md-block"
-                src="<?php echo $nacional['imagen']; ?>"
+                src="<?php echo $nacional['image']; ?>"
                 style="width: 200px; height: 200px; object-fit: cover; border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;">
               
               <div class="mb-1 text-muted">

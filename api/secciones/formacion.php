@@ -7,6 +7,6 @@ $formacion = [
 "titulo" => "XXX",
 "autor" => "XXX",
 "resumen" => "XXX",
-"imagen" => "XXX",
+"image" => "XXX",
 ];
 ?>
